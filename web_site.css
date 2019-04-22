@@ -330,20 +330,39 @@ height: 100px;
 
 #stats-block {
     margin-top: 50px;
+    display: flex;
+    display: inline-block;
 }
 
 #stats-block span{
     display: inline-block;
-    padding-bottom: 200px;
-    height: 200px;
-    font-family: 'Merriweather', serif;
+    padding-bottom: 130px;
+    height: 130px;
+    
 }
 
 #stats1{
-    border-right: solid 1px rgb(230, 230, 230)
+    border-right: solid 1px rgb(230, 230, 230);
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    padding: 0 100px 0 100px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Merriweather', serif;
 }
 
-#stats-block span h1{
+#stats2{
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    padding: 0 100px 0 100px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Merriweather', serif;
+}
+
+#stats-block-span-1{
     color: #fff;
     text-align: center;
     font-size: 80px;
@@ -352,7 +371,7 @@ height: 100px;
     margin-block-end: 0;
 }
 
-#stats-block span h3{
+#stats-text-1{
     color: #1388AA;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
@@ -360,6 +379,20 @@ height: 100px;
     text-align: center;
     margin-block-start: 0;
     margin-block-end: 0;
+    margin-left: 150px;
+    font-weight: 900
+}
+
+#stats-text-2{
+    color: #1388AA;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 125px;
+    font-weight: 900
 }
 
 #bottom-button{
